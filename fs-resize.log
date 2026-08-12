@@ -1,0 +1,4 @@
+2026-03-16T10:00:34+0000
+/dev/mmcblk1p3 /storage ext4 rw,noatime 0 0
+DISK: /dev/mmcblk1  PART: /dev/mmcblk1p3
+SP_NAME=.
