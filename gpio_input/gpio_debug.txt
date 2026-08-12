@@ -1,0 +1,44 @@
+gpiochip0: GPIOs 0-31, parent: platform/ff040000.gpio0, gpio0:
+ gpio-0   (                    |blue_led            ) out hi 
+ gpio-2   (                    |reset               ) out hi 
+ gpio-3   (                    |cd                  ) in  lo ACTIVE LOW
+ gpio-11  (                    |blue1_led_1         ) out lo 
+ gpio-12  (                    |red_led_1           ) out hi 
+ gpio-13  (                    |vcc18-lcd-n         ) out hi 
+ gpio-17  (                    |red_led             ) out lo 
+
+gpiochip1: GPIOs 32-63, parent: platform/ff250000.gpio1, gpio1:
+
+gpiochip2: GPIOs 64-95, parent: platform/ff260000.gpio2, gpio2:
+ gpio-65  (                    |led-vcc             ) out hi 
+ gpio-76  (                    |rocker0_gpio        ) out hi 
+ gpio-77  (                    |joy_gpio16          ) in  hi 
+ gpio-78  (                    |joy_gpio17          ) in  hi 
+ gpio-79  (                    |rocker_gpio         ) out lo 
+ gpio-80  (                    |rocker1_gpio        ) out hi 
+ gpio-86  (                    |hp-det              ) in  lo 
+
+gpiochip3: GPIOs 96-127, parent: platform/ff270000.gpio3, gpio3:
+ gpio-100 (                    |otg_gpio            ) out hi 
+ gpio-101 (                    |rk817_dc_det        ) in  lo 
+ gpio-103 (                    |spk-con             ) out lo 
+ gpio-106 (                    |joy_gpio18          ) in  hi 
+ gpio-107 (                    |joy_gpio0           ) in  hi 
+ gpio-108 (                    |joy_gpio1           ) in  hi 
+ gpio-109 (                    |joy_gpio2           ) in  hi 
+ gpio-110 (                    |joy_gpio3           ) in  hi 
+ gpio-111 (                    |reset               ) out hi ACTIVE LOW
+ gpio-112 (                    |joy_gpio4           ) in  hi 
+ gpio-113 (                    |joy_gpio5           ) in  hi 
+ gpio-114 (                    |joy_gpio6           ) in  hi 
+ gpio-115 (                    |joy_gpio7           ) in  hi 
+ gpio-116 (                    |joy_gpio8           ) in  hi 
+ gpio-117 (                    |joy_gpio9           ) in  hi 
+ gpio-118 (                    |joy_gpio10          ) in  hi 
+ gpio-119 (                    |joy_gpio11          ) in  hi 
+ gpio-120 (                    |joy_gpio12          ) in  hi 
+ gpio-121 (                    |joy_gpio13          ) in  hi 
+ gpio-122 (                    |joy_gpio14          ) in  hi 
+ gpio-123 (                    |joy_gpio15          ) in  hi 
+
+gpiochip4: GPIOs 509-511, parent: platform/rk805-pinctrl, rk817-gpio, can sleep:

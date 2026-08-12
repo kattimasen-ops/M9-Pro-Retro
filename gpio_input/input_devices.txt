@@ -1,0 +1,61 @@
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="rk805 pwrkey"
+P: Phys=rk805_pwrkey/input0
+S: Sysfs=/devices/platform/ff180000.i2c/i2c-0/0-0020/rk805-pwrkey/input/input0
+U: Uniq=
+H: Handlers=kbd event1 dmcfreq 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="headset-keys"
+P: Phys=headset-keys/input0
+S: Sysfs=/devices/platform/rk817-sound/input/input1
+U: Uniq=
+H: Handlers=kbd event2 dmcfreq 
+B: PROP=0
+B: EV=3
+B: KEY=1000000000 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="rockchip-rk817 Headset"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/rk817-sound/sound/card0/input2
+U: Uniq=
+H: Handlers=event3 
+B: PROP=0
+B: EV=21
+B: SW=14
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="adc-keys"
+P: Phys=adc-keys/input0
+S: Sysfs=/devices/platform/adc-keys/input/input3
+U: Uniq=
+H: Handlers=kbd event4 dmcfreq 
+B: PROP=0
+B: EV=3
+B: KEY=c000000000000 0
+
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="play_joystick"
+P: Phys=
+S: Sysfs=/devices/platform/play_joystick/input/input4
+U: Uniq=
+H: Handlers=kbd js0 event0 dmcfreq 
+B: PROP=0
+B: EV=10000b
+B: KEY=f00000000 10000 0 0 7fdb000000000000 0 0 0 2
+B: ABS=1b
+
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="zed_keyboard"
+P: Phys=
+S: Sysfs=/devices/platform/play_joystick/input/input5
+U: Uniq=
+H: Handlers=kbd event5 dmcfreq 
+B: PROP=0
+B: EV=100003
+B: KEY=c000000000000 0
+

@@ -1,0 +1,6 @@
+N: Number=0 Name=kbd
+N: Number=1 Name=leds
+N: Number=2 Name=joydev Minor=0
+N: Number=3 Name=evdev Minor=64
+N: Number=4 Name=dmcfreq
+N: Number=5 Name=sysrq (filter)

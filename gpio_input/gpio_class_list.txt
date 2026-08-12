@@ -1,0 +1,10 @@
+total 0
+drwxr-xr-x    2 root     root             0 Aug 12 10:24 .
+drwxr-xr-x   68 root     root             0 Aug 12 10:24 ..
+--w-------    1 root     root          4096 Aug 12 10:24 export
+lrwxrwxrwx    1 root     root             0 Aug 12 10:24 gpiochip0 -> ../../devices/platform/pinctrl/ff040000.gpio0/gpio/gpiochip0
+lrwxrwxrwx    1 root     root             0 Aug 12 10:24 gpiochip32 -> ../../devices/platform/pinctrl/ff250000.gpio1/gpio/gpiochip32
+lrwxrwxrwx    1 root     root             0 Aug 12 10:24 gpiochip509 -> ../../devices/platform/ff180000.i2c/i2c-0/0-0020/rk805-pinctrl/gpio/gpiochip509
+lrwxrwxrwx    1 root     root             0 Aug 12 10:24 gpiochip64 -> ../../devices/platform/pinctrl/ff260000.gpio2/gpio/gpiochip64
+lrwxrwxrwx    1 root     root             0 Aug 12 10:24 gpiochip96 -> ../../devices/platform/pinctrl/ff270000.gpio3/gpio/gpiochip96
+--w-------    1 root     root          4096 Aug 12 10:24 unexport
