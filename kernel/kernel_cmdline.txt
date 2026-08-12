@@ -1,0 +1,1 @@
+boot=UUID=2701-5727 disk=UUID=e2b50327-8204-4d31-acb3-fde30421e72e quiet console=ttyFIQ0 console=tty0 net.iframes=0 fbcon=rotate:3 ssh consoleblank=0 rw rootwait earlycon=uart8250,mmio32,0xff178000 root=PARTUUID=614e0000-0000 rootfstype=ext4 overlayroot=device:dev=PARTLABEL=STORAGE,fstype=ext4,mkfs=1,bootfromnand=1
