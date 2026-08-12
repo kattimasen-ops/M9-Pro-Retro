@@ -1,0 +1,19 @@
+Filesystem                Size      Used Available Use% Mounted on
+devtmpfs                290.2M      4.0K    290.2M   0% /dev
+tmpfs                   143.1M      2.1M    141.0M   1% /run
+/dev/mmcblk1p1         1023.7M    960.8M     62.9M  94% /flash
+/dev/loop0              929.0M    929.0M         0 100% /
+/dev/mmcblk1p3          938.0M    472.2M    461.8M  51% /storage
+/dev/mmcblk1p4           46.3G     45.9G    423.6M  99% /storage/roms
+/dev/mmcblk1p4           46.3G     45.9G    423.6M  99% /storage/.update
+tmpfs                   357.8M         0    357.8M   0% /dev/shm
+tmpfs                     4.0M         0      4.0M   0% /sys/fs/cgroup
+tmpfs                   357.8M     32.0K    357.8M   0% /var
+tmpfs                   357.8M         0    357.8M   0% /tmp
+/dev/mmcblk1p4           46.3G     45.9G    423.6M  99% /storage/.config/emuelec/themes
+none                    938.0M    472.2M    461.8M  51% /tmp/assets
+none                    938.0M    472.2M    461.8M  51% /tmp/cores
+none                    938.0M    472.2M    461.8M  51% /tmp/database
+none                    938.0M    472.2M    461.8M  51% /tmp/joypads
+none                    938.0M    472.2M    461.8M  51% /tmp/overlays
+none                    938.0M    472.2M    461.8M  51% /tmp/shaders

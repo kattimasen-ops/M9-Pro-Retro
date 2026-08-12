@@ -1,0 +1,9 @@
+major minor  #blocks  name
+
+   1        0       4096 ram0
+   7        0     951020 loop0
+ 179        0   52480000 mmcblk1
+ 179        1    1048576 mmcblk1p1
+ 179        2     524288 mmcblk1p2
+ 179        3    1032192 mmcblk1p3
+ 179        4   48578560 mmcblk1p4
